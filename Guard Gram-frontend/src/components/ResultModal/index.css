@@ -1,0 +1,12 @@
+/*pop up scale div*/
+@keyframes popup-animations {
+    0% {
+        transform: scale(0);
+    }
+    100% {
+        transform: scale(1);
+    }    
+}
+.result-div{
+    animation: popup-animations 0.5s;
+}

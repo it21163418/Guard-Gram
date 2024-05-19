@@ -1,0 +1,10 @@
+option {
+    background: #00000000;
+}
+option:hover {
+    background: darkblue;
+}
+/* option checked*/
+option:checked {
+    background: darkblue;
+}
