@@ -15,10 +15,6 @@ Before you start, you will need to install the following software:
    - Follow the installation instructions for your operating system.
    - Remember to add this to your Environment Variables refer this video if you are not familiar with the process https://www.youtube.com/watch?v=gb9e3m98avk
 
-3. **MongoDB**:
-   - Download and install MongoDB from the official website: [MongoDB Download](https://www.mongodb.com/try/download/community)
-   - Follow the installation instructions for your operating system.
-   - Ensure MongoDB is running on your system.
 
 ## Installation
 
@@ -34,13 +30,15 @@ cd Guard-Gram
 ```bash
 pip install -r requirements.txt
 ```
-yet if you encounter any error messages you can install that package using 
+yet if you encounter any package missing error messages you can install that package using 
 ```bash
 pip install <Package name>
 ```
 
 **Ensure you have set up the backend as described above.**
+
 Run the Training Script:
+
 ```bash
 python train.py
 ```
@@ -49,4 +47,19 @@ python train.py
 ```bash
 python app.py
 ```
+This server will start on http://localhost:5000.
 
+## Frontend Setup
+Navigate to the Frontend Directory:
+```bash
+cd ../frontend
+```
+Install Node Modules:
+```bash
+npm install
+```
+Start the Frontend Server:
+```bash
+npm run dev
+```
+This will open the frontend in your default web browser at http://localhost:3000.
