@@ -30,7 +30,23 @@ First, clone the repository to your local machine using Git. Open your command l
 git clone https://github.com/your-username/Guard-Gram.git
 cd Guard-Gram
 ```
-### Backend Setup
-Navigate to the Backend Directory:
+### Install Python Dependencies:
+```bash
+pip install -r requirements.txt
+```
+yet if you encounter any error messages you can install that package using 
+```bash
+pip install <Package name>
+```
 
+**Ensure you have set up the backend as described above.**
+Run the Training Script:
+```bash
+python train.py
+```
+
+### Start the Backend Server:
+```bash
+python app.py
+```
 
