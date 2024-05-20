@@ -29,7 +29,7 @@ First, clone the repository to your local machine using Git. Open your command l
 ```bash
 git clone https://github.com/your-username/Guard-Gram.git
 cd Guard-Gram
-
+```
 ### Backend Setup
 Navigate to the Backend Directory:
 
